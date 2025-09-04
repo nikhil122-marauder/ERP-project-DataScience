@@ -73,6 +73,7 @@ This phase handles data loading, cleaning, PII masking, and training a RoBERTa c
 This phase builds an enhanced retrieval system with confidence-aware gating.
 
 **Quick Start:**
+- If available, place the "Best" roberta model inside roberta-base folder in artifacts folder.
 - **Important**: Cell 3 must be run first to generate tickets with history
 - Run cells between "PHASE 2" and "PHASE 3" markers
 
@@ -85,12 +86,14 @@ This phase builds an enhanced retrieval system with confidence-aware gating.
 This phase implements a LoRA-adapted fine-tuned summarizer with a deterministic repair mechanism.
 
 **Quick Start:**
+- If available, place the summ_lora folder in the artifacts folder to skip  retraining the fine-tuned summariser.
 - Refined tickets can be loaded to skip retraining
 - Run cells between "PHASE 3" and "PHASE 4" markers
 
 **Outputs:**
 - LoRA adapter for the summarization model
 - Enhanced summaries with consistent structure
+- Also place "flan-t5-base-lora-summ" inside the outputs folder in the home directory
 
 ### Phase 4: Evaluation
 
