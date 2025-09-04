@@ -40,6 +40,11 @@ The system is designed to identify ticket categories, retrieve similar past tick
    mkdir -p data/raw data/processed artifacts outputs
    ```
 
+
+## Model Files
+
+**Note**: Due to GitHub file size constraints, the trained models are not included in this repository. The best RoBERTa classification model and the merged LoRA model are provided separately in a zip file in the additional materials.
+
 ## Running the Project
 
 The system is implemented in the Jupyter notebook `erp_analysis.ipynb`.
@@ -68,7 +73,6 @@ This phase handles data loading, cleaning, PII masking, and training a RoBERTa c
 This phase builds an enhanced retrieval system with confidence-aware gating.
 
 **Quick Start:**
-- Ensure pretrained saved models are available
 - **Important**: Cell 3 must be run first to generate tickets with history
 - Run cells between "PHASE 2" and "PHASE 3" markers
 
@@ -81,7 +85,6 @@ This phase builds an enhanced retrieval system with confidence-aware gating.
 This phase implements a LoRA-adapted fine-tuned summarizer with a deterministic repair mechanism.
 
 **Quick Start:**
-- Models from Phase 2 can be loaded directly
 - Refined tickets can be loaded to skip retraining
 - Run cells between "PHASE 3" and "PHASE 4" markers
 
@@ -111,17 +114,9 @@ The system follows a modular pipeline design:
 
 ## Folder Structure
 
-```
-Project Code/
-├── artifacts/             # Saved models and intermediate outputs
-├── data/
-│   ├── raw/               # Raw input data files
-│   └── processed/         # Processed data
-├── outputs/               # Generated results and models
-└── erp_analysis.ipynb     # Main notebook with all pipeline phases
-```
+Project Code/ ├── artifacts/ # Saved models and intermediate outputs ├── data/ │ ├── raw/ # Raw input data files │ └── processed/ # Processed data ├── outputs/ # Generated results and models └── erp_analysis.ipynb # Main notebook with all pipeline phases
+
 
 ## Use of AI Acknowledgement
 
-Parts of this codebase were developed with the assistance of generative AI tools (e.g., ChatGPT and GitHub Copilot). These tools supported identification and resolution of errors, helped design modular and readable code, and contributed to maintaining clear project structure throughout implementation. All critical design decisions, algorithmic logic, and final code validation were carried out by the author.
-
+Parts of this codebase were developed with the assistance of generative AI tools (ChatGPT and GitHub Copilot). These tools supported identification and resolution of errors, helped design modular and readable code, and contributed to maintaining clear project structure throughout implementation. All critical design decisions, algorithmic logic, and final code validation were carried out by the

@@ -1,0 +1,71 @@
+TICKETID,ALTERNATEKEYSUFFIX,AREA,CATEGORY,ISSUE,RECEIVEDDATE,COMPLETEDDATE,SUBJECT,URGENCYCODE,PROBLEM,SOLUTION,RESULTIONSUMMARY,ACCOUNTID,ACCOUNT
+t6UJ9A00GHH8,,,S1000v4,,2025-05-23 11:30:32,2025-05-23 16:05:51,URGENT HELP NEEDED: [REDACTED] posting failed to post,3,"Would you be able to help correct the whatever the issue is with the posting of [REDACTED] batch 7268 please?
+
+I've completely forgotten how to get into the background in Sage to check for the errors and correct them.",Batch had been imported incorrectly. Corrected suspended [REDACTED] journal to post the correct figures and editted the [REDACTED] items to reflect the correct values.,,A6UJ9A0023H4,Account_1
+t6UJ9A00GFTK,,,S1000v4,,2025-05-08 14:38:09,2025-05-23 15:11:47,[REDACTED],3,"Hi, 
+
+Please see attachment of our  report that got done at month end.
+
+To run this report, we do the following 
+	Sage - Manufacturing - works order processing - reports - works order status.
+Hit enter and put an 'i' in the status required field (first cell) – enter
+Run it and save it down (maudit).
+ 
+Our understanding is that the report would show work orders that are left, but the report shows the full cost:
+
+Please see print screen for example. The total cost is 10,424.99 for the Qty of 12. However, the report shows that 2 Qty have been finished but this has not been reduced this from the full amount.
+
+
+ 
+
+This print screen shows the journal that has been posted in the month based of the stock history. The full for the WO  comes back to 9999.99 giving a difference of 9.99 and we are trying to understand how we have this difference from the stock history to the .
+
+ 
+
+Please can you confirm:
+-	Why doesn't the [REDACTED] report show the material costs left anywhere?
+-	Why was is the [REDACTED] order  figure different on the stock history to the WIP Report?
+
+Thanks, 
+
+,",I advised  to run the  report in [REDACTED] which will give her the figure she requires -  happy to close this one down and will open another ticket is further assistance is required,,A6UJ9A0009N9,Account_2
+t6UJ9A00GGSG,,,S1000v4,,2025-05-19 07:02:04,2025-05-23 14:39:32,invoices into the GL,3,"Hi,
+
+There is a process that my team do and I just want to check if there's a way to improve it. 
+
+At the moment when a purchase invoice comes in and it has a [REDACTED] to match against it, our purchase ledger clerk has to ask another team member to go into the  screen below. Then they have to click 'authorise', go out of the order and go back in where it will ask 'post immediately' and they have to click 'yes'. 
+
+Is there a reason why this doesn't just post immediately? I'm not sure what benefit this step is adding? If you need details of which screens we go into etc please contact  (cc'd) and he can advise.","user is not set up as a pop user so currently is unable to authorise and post POP invoices
+have set her up as one now but not given an invoice limit so someone else will still authorise and post them",,A6UJ9A000H3R,Account_3
+t6UJ9A00GHDL,,,S1000v4,BACS,2025-05-22 14:37:44,2025-05-23 14:34:00,[REDACTED] query,1,"when I raise a [REDACTED], does it have to be raised on Sage 1000 on the two days before the run only ? If I were to raise a payment run on Tuesday for Friday, where can I depict the dates that the payment will be with the supplier.
+
+I raised a run this Tuesday, but the remittances still were sent out and had today's date on it as the date they would receive payment, but it would only be received tomorrow.?",Advised that the remittance date entered when generating the payment list will be used for the documentation.,,A6UJ9A0083J7,Account_4
+t6UJ9A00GHHG,,,S1000v4,,2025-05-23 12:20:29,2025-05-23 12:56:26,,3,",
+
+Can you please set up  as a new timesheet resource in Sage? Please, use existing user ????? as a template.
+
+Kind regards,
+
+",set up via Contracting -  -,,A00SWA300000,Account_5
+t6UJ9A00GHGY,,,S1000v4,,2025-05-23 10:59:20,2025-05-23 11:38:13,sage error,3,"Hi
+
+Please could I log a ticket we are getting this message when we open sage.
+
+Could you look at this thanks","Restarted the  which appeared to be using 1.7GB of memory.
+Sage is now back.",,ADSMQA200005,Account_6
+t6UJ9A00GHC3,,,S1000v4,Inventory,2025-05-22 10:54:13,2025-05-23 11:18:39,Ethanol - downgrading of stock,3,"As per the email below, I have done a stock adjustment for 84.0535 on tank 1505.  When I did the stock adjustment I got a message saying that some of the batches had been allocated.
+
+When we look in Sage the physical stock has been adjusted but the available stock is the same.
+
+Do you know if stock can be unallocated once it has been allocated for a sale?  
+
+Also, do you know how we can identify which batches are allocated prior to doing a stock adjustment?","Advised to run the 'Batches' report and show allocations. Corrected the summary stock figures. Reset status on sales order ,  and  to allow the stock to be unallocated and reallocated.",,A6UJ9A0028UH,Account_7
+t6UJ9A00GHG5,,,S1000v4,,2025-05-23 09:25:17,2025-05-23 11:16:35,Issue with system,3,"Hi
+ 
+Can someone please unlock this batch as it's stopped people being about the post anything",killed hung  process,,A6UJ9A0027M1,Account_8
+t6UJ9A00GHGO,,,S1000v3,,2025-05-23 10:09:36,2025-05-23 11:08:59,[REDACTED] Access,3,"Trying to log into old system to obtain information for the audiotors but unable to get past the password stage on the old Sage 1000 V3 system.  can get in so it is just  password that is having issues, can someone reset the password to see if she can then log in.","On a [REDACTED] call with  saw Sage was making  change the password that had just been reset.
+I advised  to put in the new password that was given to her and then set a new password.
+ password policy was forcing  to change her password to something new, even though her admin had only just changed this.",,A6UJ9A003MWO,Account_9
+t6UJ9A00GHE7,,,S1000v4,Paperless,2025-05-22 15:27:11,2025-05-23 09:44:39,Remittances not printed,3,Remittances not printed,"All I actually did last night was remove some jobs in the queue that should not be there as they have no Paperless definition – and then also I amended the default printer in the  setup for the remittances to one of the new printers – that was just to be sure it was not trying to connect to the  printer.
+
+The prints then were processed fine again..",,ADSMQA20002R,Account_10
