@@ -1,0 +1,8 @@
+{
+  "model_name": "sentence-transformers/paraphrase-mpnet-base-v2",
+  "num_docs": 5275,
+  "vec_dim": 768,
+  "ticket_ids_hash": "8577dcb76c4d70f6ed930973b9470404",
+  "text_full_hash": "4c6b4fc9a2fe2c4dfd2835f4b92d3000",
+  "created_utc": "2025-08-26T18:36:47+00:00"
+}
